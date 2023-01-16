@@ -1,3 +1,5 @@
+@use "../functions/functions";
+
 $color-dark-cyan: hsl(158, 36%, 37%);
 $color-cream: hsl(30, 38%, 92%);
 $color-very-dark-blue: hsl(212, 21%, 14%);
@@ -7,7 +9,7 @@ $color-white: hsl(0, 0%, 100%);
 $media-display-mobile: 375px;
 $media-display-desktop: 1440px;
 
-$font-paragraph-size: 16px;
+$font-paragraph-size: functions.pixlesToRem(14);
 
 $font-family-title: serif;
 $font-family-paragraph: sans-serif;
