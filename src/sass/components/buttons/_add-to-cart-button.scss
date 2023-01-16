@@ -1,3 +1,6 @@
+@use "../../variables/variables";
+
 button {
-  background-color: red;
+  background-color: variables.$color-dark-cyan;
+  color: variables.$color-white;
 }

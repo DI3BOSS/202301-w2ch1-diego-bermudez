@@ -16,5 +16,9 @@
     "husky": "^8.0.0",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.7"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^4.5.10",
+    "@fontsource/montserrat": "^4.5.13"
   }
 }
