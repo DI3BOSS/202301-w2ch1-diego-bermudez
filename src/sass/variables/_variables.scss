@@ -1,4 +1,7 @@
 @use "../functions/functions";
+@import url("/node_modules/@fontsource/fraunces/500.css");
+@import url("/node_modules/@fontsource/fraunces/700.css");
+@import url("/node_modules/@fontsource/fraunces/700.css");
 
 $color-dark-cyan: hsl(158, 36%, 37%);
 $color-cream: hsl(30, 38%, 92%);
@@ -9,12 +12,20 @@ $color-white: hsl(0, 0%, 100%);
 $media-display-mobile: 375px;
 $media-display-desktop: 1440px;
 
-$font-paragraph-size: functions.pixlesToRem(14);
+$font-size-paragraph: functions.pixlesToRem(14);
+$font-size-full-price: functions.pixlesToRem(12);
+$font-size-price: functions.pixlesToRem(34);
+$font-size-small: functions.pixlesToRem(14);
+$font-size-medium: functions.pixlesToRem(32);
 
-$font-family-title: serif;
-$font-family-paragraph: sans-serif;
+$font-family-title: Fraunces, serif;
+$font-family-paragraph: Montserrat, sans-serif;
 
 $font-weight-normal: 500;
 $font-family-bolder: 700;
 
 $font-uppercase: uppercase;
+$font-line-trough: line-through;
+
+$text-line-height-paragraph: 160%;
+$text-letter-spaciong-paragraph: 5px;
