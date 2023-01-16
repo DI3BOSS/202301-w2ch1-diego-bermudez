@@ -1,0 +1,32 @@
+@use "product-image";
+@use "product-information";
+@use "product-prices";
+@use "../../functions/functions";
+@use "../buttons/add-to-cart-button";
+@use "../../variables/variables";
+
+.product-preview {
+  display: flex;
+  flex-direction: column;
+  height: functions.pixlesToRem(615);
+  width: functions.pixlesToRem(345);
+  border-radius: functions.pixlesToRem(10);
+  background-color: red;
+  justify-content: space-between;
+
+  &__image {
+    border-radius: functions.pixlesToRem(10) functions.pixlesToRem(10) 0 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: functions.pixlesToRem(345);
+    padding: functions.pixlesToRem(27) 27 functions.pixlesToRem(27);
+  }
+
+  &__category {
+    text-transform: variables.$font-uppercase;
+  }
+}
